@@ -1,0 +1,38 @@
+/* *{
+    background-color: green;
+} */
+ /* flexbox solo afecta a lo que esta adentro --> */
+.contenedor{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    /* justify-content: flex-end ;
+    justify-content: space-around;
+    align-items: flex-end; */
+    /* flex-direction: column-reverse;
+    justify-content: flex-end;
+    justify-content: space-between; */
+    /* aligne content = columnas resolver el problema */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.father{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.mother{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+}
+
+.father2{
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+}

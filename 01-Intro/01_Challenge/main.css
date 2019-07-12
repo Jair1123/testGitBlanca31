@@ -1,0 +1,27 @@
+/* Estructura css se utiliza unos parentesis {} y dentro la etiqueta que quieres modificar  */
+
+h1{
+    /* Se utiliza ; para cortar los comamndos  */
+    /* Si se coloca el cursor encima de rgb sale la paleta de colores  */
+    font-size: 40px;
+    color: #ffff00;
+}
+
+img{
+    /* Cuando son imagenes que no son cuadradas solo utilizar el width para no perder proporcion  */
+    width: 250px ;
+    
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 50px
+}
+/* Cuando uso una clase debo utilizar un punto antes del nombre  */
+.primerImagenIron{
+    width: 400px;
+}
+
+.segundaImagen{
+    width: 100px
+}

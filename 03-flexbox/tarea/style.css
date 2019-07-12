@@ -1,0 +1,152 @@
+/* *{
+    background-color: blue;
+} */
+
+nav{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 1330px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.contenedor{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+.front{
+    /* border: 1px solid purple; */
+    height: 500px;
+    
+    
+}
+.superior{
+    /* border: 1px solid yellow; */
+    width: 99.5%;
+    height: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.inferior{
+    /* border: 1px solid orange; */
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-rows: 30% 33% 33%;
+    grid-gap: 1px;
+}
+.box{
+    background: white;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+
+}
+.entrada{
+    height: 60%;
+    width: 40%;
+    margin-top: 10px;
+
+}
+.box1{
+    background: white;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+}
+.box2{
+    background: #fff;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+     
+}
+.BcG{
+    font-family: arial, sans-serif;
+    font-size: 13.3333px;
+    color: #000000;
+    height: 40px;
+    width: 150px;
+}
+.MscS{
+    font-family: arial, sans-serif;
+    font-size: 13.3333px;
+    color: #000000;
+    height: 40px;
+    width: 150px;
+    
+}
+.box3{
+    background: #fff;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+
+footer{
+    /* border: 1px solid red; */
+
+    height: 80px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background: #f2f2f2;
+    /* align-items: center; */
+}
+.box4{
+    
+    /* border: 1px solid blue; */
+    color: rgba(0,0,0,.54);
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+}
+.box5{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: 34% 40% 26%;
+    /* align-items: center; */
+    
+}
+
+
+.subCaja1{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: red; */
+    
+}
+.subCaja3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot{
+    color: rgba(0,0,0,.54);
+    font-size: 13px;
+}

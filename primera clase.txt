@@ -1,0 +1,5 @@
+Javascript es el unico lenguaje de texto 
+CSS le da diseño a la pagina y estilos
+Html solo son estruturas 
+Investigar como funciona angular y bootstrap
+Editor de texto utilizaremos visual studio code 

@@ -1,0 +1,61 @@
+
+/* Important es cuando bootstrap tiene sus propios estilos 
+y necesitamos que haga caso a nuestros propios estilos  */
+/* ------Estilos navbar----------------- */
+.custom-link-nav-color{
+    color: white !important;
+
+}
+.logo-navbar{
+    width: 60px;
+
+}
+/* ---------------EStilos main---------------- */
+.img-custom-car{
+    /* Esta vh es una medida relativa se llama viuport y es para medidasque todo lo que veo en el navegador */
+    height: 100vh;
+    width: 100%; 
+    
+}
+.custom-margin{
+    margin-top: 86px;
+}
+
+
+/* ////Card height///////////////// */
+/* .container{
+    margin: 0 !important;
+    padding: 0 !important;
+    /* para quitar el border que tiene el container ponemos max-width recuerda inspeccionar */
+    /* max-width: 100%; */
+/* } */ 
+.custom-container{
+    /* border: 1px solid red; */
+    background-color: black;
+    max-width: 100%;
+}
+.custom-img-heigth{
+    height: 420px;
+    
+}
+.card-body{
+    background-color: #000;
+    border-top: solid 1px #fff;
+}
+
+.card-body > h5{
+    color: #fff;
+}
+.card-body > a{
+    border-radius: 0;
+    background-color: #000000;
+    border: solid 1px #fff;
+}
+
+.card-body > a:hover {
+    background-color: white !important;
+    color: #000 !important ;
+    border: #000 solid 1px;
+
+}
+

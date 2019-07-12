@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>09_Challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- ml-auto sirve para mandarlo hasta la esquina -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link custom-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-link" href="#">Pricing</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- Card -->
+    <div class="bloque d-flex justify-content-around mt-4">
+        <!-- --------primera card--------- -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://files.cults3d.com/uploaders/13334750/illustration-file/7e0dbe09-ff91-4a9e-8647-4171b9abd25b/Superior_Iron_Man_v2_Thicken_2017-Dec-07_04-06-30AM-000_CustomizedView13397431581_large.png"
+                class="card-img-top" alt="Casco de iron man">
+            <div class="card-body d-flex flex-column align-items-center custom-cardModify">
+                <h5 class="card-title">Nombre</h5>
+                <input id="inputNombre" type="text" placeholder="Ingresa tu Nombre">
+                <!-- <a href="#" class="btn btn-primary">Da click</a> -->
+            </div>
+        </div>
+        <!-- --------------Segunda Card-------- -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://files.cults3d.com/uploaders/13334750/illustration-file/7e0dbe09-ff91-4a9e-8647-4171b9abd25b/Superior_Iron_Man_v2_Thicken_2017-Dec-07_04-06-30AM-000_CustomizedView13397431581_large.png"
+                class="card-img-top" alt="Casco de iron man">
+            <div class="card-body d-flex flex-column align-items-center custom-cardModify">
+                <h5 class="card-title">Telefono</h5>
+                <input id="inputTelefono" type="password" placeholder="Ingresa tu Telefono">
+                <button class="boton" id="boton">Dale!</button>
+            </div>
+        </div>
+        <!-- ---------------tercera card---------- -->
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://files.cults3d.com/uploaders/13334750/illustration-file/7e0dbe09-ff91-4a9e-8647-4171b9abd25b/Superior_Iron_Man_v2_Thicken_2017-Dec-07_04-06-30AM-000_CustomizedView13397431581_large.png"
+                class="card-img-top" alt="Casco de iron man">
+            <div class="card-body d-flex flex-column align-items-center custom-cardModify">
+                <h5 class="card-title">Pizza con piña o sin piña</h5>
+                <input id="inputPizza" type="text" placeholder="Ingresa si con piña la pizza">
+                <!-- <a href="#" class="btn btn-primary">Da click</a> -->
+            </div>
+        </div>
+
+
+
+    </div>
+    <div id="card" class="custom-desaparecer centrado">
+        <div class="resp d-flex flex-column align-items-center col-3 center bg-dark text-white ">
+            <div>
+                <p id="nombre">Nombre</p>
+            </div>
+            <div>
+                <p id="telefono">Telefono</p>
+
+            </div>
+            <div>
+                <p id="pizza">Piña o no Piña</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div >
+        <label for="Name">Nombre</label>
+        <input type="text" id="Name" name="Name" />
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

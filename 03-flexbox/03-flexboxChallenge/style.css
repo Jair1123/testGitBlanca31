@@ -1,0 +1,204 @@
+/* *{
+    background-color: green;
+} */
+ /* flexbox solo afecta a lo que esta adentro --> */
+ main{
+     display: flex;
+     border: 1px solid rgb(240, 54, 54);
+     justify-content:space-around;
+     
+ }
+ 
+ 
+ .contenedor{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    /* justify-content: flex-end ;
+    justify-content: space-around;
+    align-items: flex-end; */
+    /* flex-direction: column-reverse;
+    justify-content: flex-end;
+    justify-content: space-between; */
+    /* aligne content = columnas resolver el problema */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.father{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grandmother{
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+    
+}
+.grandfather{
+    border: 1px solid blue;
+    width: 10px;
+    height: 10px;
+}
+.brother{
+    border: 1px solid green;
+    width: 10px;
+    height: 10px;
+}
+
+.mother{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.grandmother1{
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+
+}
+.grandfather1{
+    border: 1px solid blue;
+    width: 10px;
+    height: 10px;
+}
+.brother1{
+    border: 1px solid green;
+    width: 10px;
+    height: 10px;
+}
+
+.son{
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grandmother2{
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+
+}
+.grandfather2{
+    border: 1px solid blue;
+    width: 10px;
+    height: 10px;
+}
+.brother2{
+    border: 1px solid green;
+    width: 10px;
+    height: 10px;
+}
+
+.contenedor1{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    /* justify-content: flex-end ;
+    justify-content: space-around;
+    align-items: flex-end; */
+    /* flex-direction: column-reverse;
+    justify-content: flex-end;
+    justify-content: space-between; */
+    /* aligne content = columnas resolver el problema */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.father1{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grandmother3{
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+
+}
+.grandfather3{
+    border: 1px solid blue;
+    width: 10px;
+    height: 10px;
+}
+.brother3{
+    border: 1px solid green;
+    width: 10px;
+    height: 10px;
+}
+
+.mother1{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grandmother4{
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+
+}
+.grandfather4{
+    border: 1px solid blue;
+    width: 10px;
+    height: 10px;
+}
+.brother4{
+    border: 1px solid green;
+    width: 10px;
+    height: 10px;
+}
+
+.son1{
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grandmother5{
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+
+}
+.grandfather5{
+    border: 1px solid blue;
+    width: 10px;
+    height: 10px;
+}
+.brother5{
+    border: 1px solid green;
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,3 @@
+Javascript es el unico lenguaje de texto 
+CSS le da diseño a la pagina y estilos
+Html solo son estruturas 

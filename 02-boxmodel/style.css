@@ -1,0 +1,54 @@
+/* Probamos el css de esta manera */
+/* *{
+    background-color: green;
+} */
+/* los bordes que no podemos ver y son los que se adaptan a la pantalla se llama display block */
+h1{
+    border: solid 1px green;
+    /* width: 50%; */
+    display: inline-block;
+    padding: 15px;
+    background: black;
+    color : #ffffff;
+    margin-right: 30px;
+}
+/* display inline block combina las mejores caracteristicas de los dos display */
+h2{
+    border :solid 1px rgb(163, 37, 163);
+    height: 200px;
+    width: 200px; 
+    display: inline-block;
+    background-color: orange;
+    /* margin-top: 0;
+    margin-left: 10px; */
+    /* margin: top rigth bottom left */
+    margin: 0 30px 5px 10px;
+    /* margin en pares es para arriba y abajo */
+    padding-top: 50px;
+
+}
+p{
+    border: solid 1px black;
+    margin: 4px 76px 19px 0;
+}
+/* el display que se adapta a lo que contiene en este caso a los links se llama inline */
+
+a{
+    border: solid 1px blueviolet;
+}
+
+.seccion1{
+    border: solid 1px red;
+    height:150px ;
+    width: 50%;
+}
+.seccion2{
+    border: solid 1px blue;
+    height:150px ;
+    width: 50%;
+}
+.seccion3{
+    height:166px ;
+    width: 62%;
+    border: solid 10px yellow;
+}

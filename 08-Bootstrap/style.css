@@ -1,0 +1,15 @@
+body{
+    height: 1000px;
+}
+/* Inicia Nav */
+.custom-link-color{
+    color: #fff !important;
+}
+.custom-link-color{
+    color: aqua !important;
+}
+/* termina nav */
+.card-container{
+    border: 1px solid blue;
+    
+}

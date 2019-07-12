@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Juego_Piedra_Papel_Tijera</title>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container justify-content-center">
+            <a class="navbar-brand " href="/">
+                Bienvenido al juego Piedra-Papel-Tijera
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+    </nav>
+    <!-- Cards -->
+    <!-- Header -->
+    <header class="main-header">
+        <div class="background-overlay text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 text-center justify-content-center align-self-center ">
+                        <h1>Juega Piedra,Papel y Tijeras</h1>
+                        <p>Escoge la tarjeta que mas te guste.</p>
+                        <div class="container-card ">
+                            <!-- Team -->
+                            <section class="team text-center">
+                                <div class="containber p-2">
+                                    <div class="row">
+                                        <!-- Member -->
+                                        <div class="col-lg-3">
+                                            <div class="card">
+                                                <div class="card-body custom-background">
+                                                    <img src="./Imagenes/papel.jpg"
+                                                        class="img-fluid rounded-circle w-50" alt="Person1">
+                                                    <h3>Papel</h3>
+                                                    <button id="botonPapel"
+                                                        class="btn btn-primary btn-outline-secondary btn-lg text-white">Dale!</button>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- Member2 -->
+                                        <div class="col-lg-3">
+                                            <div class="card">
+                                                <div class="card-body custom-background">
+                                                    <img src="./Imagenes/piedra.jpg"
+                                                        class="img-fluid rounded-circle w-50" alt="Person1">
+                                                    <h3>Piedra</h3>
+                                                    <button id="botonPiedra"
+                                                        class="btn btn-primary btn-outline-secondary btn-lg text-white">Dale!</button>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- Member3  -->
+                                        <div class="col-lg-3">
+                                            <div class="card">
+                                                <div class="card-body custom-background">
+                                                    <img src="./Imagenes/tijera.jpg"
+                                                        class="img-fluid rounded-circle w-50" alt="Person1">
+                                                    <h3>Tijeras</h3>
+                                                    <button id="botonTijera"
+                                                        class="btn btn-primary btn-outline-secondary btn-lg text-white">Dale!</button>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!--  -->
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center justify-content-center align-self-center">
+                        <div class="card text-center border-primary bg-primary text-white align-self-center">
+                            <div class="card-body">
+                                <h3>Ganador!!!!!</h3>
+                                <p id="Jugador1">
+                                    Jugador1
+                                </p>
+                                <p id="Jugador2">
+                                    Jugador2
+                                </p>
+                                <p id="ganador">
+                                    Quien gano
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
