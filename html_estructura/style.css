@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.cover{
+    border: solid 2px purple;
+    height: 85vh;
+    /* background-image: url(); */
+    padding-top: 40px;
+}
+
+.img-map{
+    border: solid 2px red;
+    width: 90%;
+    margin: auto;
+    height: 250px;
+    /* debemos ajustar algunas imagenes a la caja ya sea alto o ancho investigar esta funcion contain a lo ancho cover es a lo alto del elemento */
+    /* background-size: cover; */
+
+}
+.black-brand{
+    height: 200px;
+    border: solid 4px yellow;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box{
+    border-top: solid 4px blue;
+    /* border: solid 4px gray; */
+    width: 340px;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #caaa71;
+}
+
+

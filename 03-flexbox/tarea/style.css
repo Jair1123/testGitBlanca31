@@ -3,7 +3,7 @@
 } */
 
 nav{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 40px;
     width: 1330px;
     display: flex;
@@ -12,7 +12,7 @@ nav{
 }
 
 .contenedor{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     height: 100%;
     width: 16%;
     display: flex;
