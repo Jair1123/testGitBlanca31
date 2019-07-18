@@ -21,23 +21,27 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="./Imagenes/logo.png" alt="Logo de la empresa" style="width: 20%">
+            <a class="navbar-brand" href="#">
+                <img src="./Imagenes/arc_reactor_2x.png" alt="Logo de la empresa" style="width: 10%">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href= 192.168.43.188 target="_blank">Sign-in</a>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto justify-content-around">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="http://10.237.228.163" target="_blank">Pruebanos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pricing_table.html"target="_blank">Precios</a>
+                        <a class="nav-link" href="./pricing_table.html" target="_blank">Precios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contactos</a>
+                        <a class="nav-link" href="#contact">Contactanos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./formulario.html">Inicia sesion</a>
                     </li>
 
                 </ul>
@@ -49,17 +53,16 @@
     <header class="main-header">
         <div class="background-overlay text-white py-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center justify-content-center align-self-center ">
-                        <h1>This is a title or o phrase to the product</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora.</p>
-                        <a href="#" class="btn btn-outline-secondary btn-lg text-white custom-design">
-                            Read more
-                        </a>
+                <div class="row ">
+                    <div class="col-md-6 text-center justify-content-center custom-text ">
+                        <h1>Todo puede estar conectado la revolucion tecnologica en la vida cotidiana</h1>
+                        <p>Que es Todo puede estar conectado? Es la primer plataforma web en la que se pueden agregar
+                            tus dispositivos IOT, tambien tenemos la opcion de conectar todos tus aparatos electronicos
+                            a la red internet para que los controles desde tu computadora </p>
                     </div>
-                    <div class="col-md-6  ">
-                        <img src="./Imagenes/product.jpg" alt="Producto" class="img-fluid d-none d-md-block ml-auto ">
-
+                    <div class="col-md-6   ">
+                        <img src="./Imagenes/esp.PNG" alt="Producto"
+                            class="img-fluid d-none d-md-block ml-auto custom-image ">
                     </div>
                 </div>
             </div>
@@ -85,46 +88,59 @@
             </div>
         </div>
     </section>
+    <!--Title  -->
+    <section class="bg-light ">
+        <div class="container">
+            <div class="row">
+                <div class="m-3 custom-title">
+                    <h2 class="text-center">Objetivos del IOT</h2>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Features  -->
-    <section class=" py-5">
+    <section class=" py-1">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <div class="card text-center border-primary">
-                        <div class="card-body">
-                            <h3>Feature One</h3>
+                        <div class="card-body custom-cardT">
+                            <h3>Automatización de procesos</h3>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, unde.
+                                De esta manera se pueden reducir los tiempos de producción de las empresas.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card text-center bg-primary text-white">
-                        <div class="card-body">
-                            <h3>Feature Two</h3>
+                        <div class="card-body custom-cardT">
+                            <h3>Control Domotico</h3>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, unde.
+                                Poder controlar tu hogar desde la plataforma, desde luces hasta saber si esta encendida
+                                la estufa.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card text-center border-primary">
-                        <div class="card-body">
-                            <h3>Feature Three</h3>
+                        <div class="card-body custom-cardT">
+                            <h4>Asistencia médica</h4>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, unde.
+                                Con el IoT es posible reducir las estancias hospitalarias, pues en determinados casos
+                                puede cuidar al paciente en su hogar.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card text-center bg-primary text-white">
-                        <div class="card-body">
-                            <h3>Feature Four</h3>
+                        <div class="card-body custom-cardT">
+                            <h3>Seguridad</h3>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, unde.
+                                Con la implementación del IOT se puede revisar las camaras de seguridad desde el otro
+                                lado del mundo
                             </p>
                         </div>
                     </div>
@@ -136,10 +152,11 @@
     <section class="bg-light text-center">
         <div class="container">
             <div class="row">
-                <div class="m-5">
-                    <h3>Why this product</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia praesentium atque fugit? Fuga,
-                        iusto harum laborum exercitationem aperiam corrupti sit doloribus sapiente natus similique vero?
+                <div class="m-5 custom-title">
+                    <h3>¿Porque escoger nuestro producto?</h3>
+                    <p>Somos la primer plataforma que permite conectar tus dispositivos electronicos a una plataforma de
+                        forma segura y facil, ademas de contar con un registro diario de los datos obtenidos por los
+                        sensores.
                     </p>
                 </div>
             </div>
@@ -154,7 +171,7 @@
                         <h2 class="mb-0">
                             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
-                                Collapsible Group Item #1
+                                Paquete #1
                             </button>
                         </h2>
                     </div>
@@ -162,13 +179,8 @@
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                         data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            En este paquete te damos la opcion de subir tus dispositivos IOT a la plataforma y llevar un
+                            registro diario por medio de una base de datos.
                         </div>
                     </div>
                 </div>
@@ -177,19 +189,15 @@
                         <h2 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                 data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Collapsible Group Item #2
+                                Paquete #2
                             </button>
                         </h2>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            En este paquete te colocamos el paquete de seguridad que contiene sensores conectados a las
+                            puertas para detectar en que momento se abren y se cierran, conexion de camaras web que
+                            puedes visualizar desde la plataforma.
                         </div>
                     </div>
                 </div>
@@ -198,20 +206,16 @@
                         <h2 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                 data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Collapsible Group Item #3
+                                Paquete #3
                             </button>
                         </h2>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                         data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            En este paquete te incluimos los sensores de asistencia medica que cuenta con los sensores
+                            de presion, ritmo cardiaco que estan conectados a la plataforma y con los servicios de
+                            asistencia.
                         </div>
                     </div>
                 </div>
@@ -221,16 +225,20 @@
     <!-- Team -->
     <section class="team text-center">
         <div class="containber p-5">
-            <h1 class="text-white">Team</h1>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1 class="text-white pb-3">Desarrolladores</h1>
+            <!-- <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
             <div class="row">
                 <!-- Member -->
                 <div class="col-lg-3">
                     <div class="card">
-                        <div class="card-body">
-                            <img src="./Imagenes/person.png" class="img-fluid rounded-circle w-50" alt="Person1">
-                            <h3>Jair Hernandez</h3>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="card-body d-flex align-items-center flex-column">
+                            <!-- Member 1 -->
+                            <div class="custom-heigth d-flex justify-content-center">
+                                <img src="./Imagenes/FB_IMG_1563402929356.jpg"
+                                    class="img-fluid rounded-circle w-50 custom-imgH" alt="Person1">
+                            </div>
+                            <h3 class="pt-3">Jair Hernandez</h3>
+                            <p>Desarrollador Front-end.</p>
                             <div class="d-flex flex-row justify-content-center">
                                 <div class="p-4">
                                     <a href="http://facebook.com" target="_blank">
@@ -238,12 +246,12 @@
                                     </a>
                                 </div>
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
-                                        <i class="fab fa-twitter-square fa-2x"></i>
+                                    <a href="https://github.com/Jair1123" target="_blank">
+                                        <i class="fab fa-github fa-2x"></i>
                                     </a>
                                 </div>
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
+                                    <a href="#" target="_blank">
                                         <i class="fab fa-instagram fa-2x"></i>
                                     </a>
                                 </div>
@@ -255,23 +263,26 @@
                 <!-- Member2 -->
                 <div class="col-lg-3">
                     <div class="card">
-                        <div class="card-body">
-                            <img src="./Imagenes/person.png" class="img-fluid rounded-circle w-50" alt="Person1">
-                            <h3>Segundo </h3>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="card-body d-flex align-items-center flex-column">
+                            <div class="custom-heigth d-flex justify-content-center">
+                                <img src="./Imagenes/20190717_202619.jpg" class="img-fluid rounded-circle w-50 custom-imgH"
+                                    alt="Person1">
+                            </div>
+                            <h3 class="pt-3">Luis Delgado </h3>
+                            <p>Desarrollador Back-end</p>
                             <div class="d-flex flex-row justify-content-center">
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
+                                    <a href="#" target="_blank">
                                         <i class="fab fa-facebook fa-2x"></i>
                                     </a>
                                 </div>
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
-                                        <i class="fab fa-twitter-square fa-2x"></i>
+                                    <a href="https://github.com/LuisAntonioDelgado" target="_blank">
+                                        <i class="fab fa-github fa-2x"></i>
                                     </a>
                                 </div>
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
+                                    <a href="#" target="_blank">
                                         <i class="fab fa-instagram fa-2x"></i>
                                     </a>
                                 </div>
@@ -283,23 +294,26 @@
                 <!-- Member3  -->
                 <div class="col-lg-3">
                     <div class="card">
-                        <div class="card-body">
-                            <img src="./Imagenes/person.png" class="img-fluid rounded-circle w-50" alt="Person1">
-                            <h3>Tercero</h3>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="card-body d-flex align-items-center flex-column">
+                            <div class="custom-heigth d-flex justify-content-center">
+                                <img src="./Imagenes/ivan.jpg" class="img-fluid rounded-circle w-50 custom-imgH"
+                                    alt="Person1">
+                            </div>
+                            <h3 class="pt-3">Ivan Llaguno</h3>
+                            <p>Desarrollador Front-end.</p>
                             <div class="d-flex flex-row justify-content-center">
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
+                                    <a href="#" target="_blank">
                                         <i class="fab fa-facebook fa-2x"></i>
                                     </a>
                                 </div>
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
-                                        <i class="fab fa-twitter-square fa-2x"></i>
+                                    <a href="https://github.com/IvanLlaguno" target="_blank">
+                                        <i class="fab fa-github fa-2x"></i>
                                     </a>
                                 </div>
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
+                                    <a href="#" target="_blank">
                                         <i class="fab fa-instagram fa-2x"></i>
                                     </a>
                                 </div>
@@ -310,24 +324,27 @@
                 </div>
                 <!-- Member4 -->
                 <div class="col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="./Imagenes/person.png" class="img-fluid rounded-circle w-50" alt="Person1">
-                            <h3>Cuarto</h3>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="card custom-cardH">
+                        <div class="card-body d-flex align-items-center flex-column">
+                            <div class="custom-heigth d-flex justify-content-center">
+                                <img src="./Imagenes/IMG-20190717-WA0006.jpg" class="img-fluid rounded-circle w-50 custom-imgH"
+                                    alt="Person1">
+                            </div>
+                            <h3 class="pt-3">Alejandro Amaro</h3>
+                            <p>Desarrollador Back-end</p>
                             <div class="d-flex flex-row justify-content-center">
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
+                                    <a href="#" target="_blank">
                                         <i class="fab fa-facebook fa-2x"></i>
                                     </a>
                                 </div>
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
-                                        <i class="fab fa-twitter-square fa-2x"></i>
+                                    <a href="https://github.com/alamarof89" target="_blank">
+                                        <i class="fab fa-github fa-2x"></i>
                                     </a>
                                 </div>
                                 <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
+                                    <a href="#" target="_blank">
                                         <i class="fab fa-instagram fa-2x"></i>
                                     </a>
                                 </div>
@@ -345,8 +362,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
-                    <h3>Contactanos</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3 id="contact">Contactanos</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                     <form action="./enviar.php" method="post">
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
@@ -364,7 +381,8 @@
                             <div class="input-group-prepend">
                                 <i class="fas fa-pencil-alt input-group-text"></i>
                             </div>
-                            <textarea  id="" cols="30" rows="10" name="mensaje" required placeholder="Escribe tu mensaje" class="form-control"></textarea>
+                            <textarea id="" cols="30" rows="10" name="mensaje" required placeholder="Escribe tu mensaje"
+                                class="form-control"></textarea>
                         </div>
                         <button class="btn btn-primary btn-lg btn-block">
                             Enviar
@@ -372,7 +390,7 @@
                     </form>
                 </div>
                 <div class="col-lg-3 align-self-center">
-                    <img src="./Imagenes/logo.png" alt="">
+                    <img src="./Imagenes/image.png" alt="" style="width: 90%">
                 </div>
             </div>
         </div>
