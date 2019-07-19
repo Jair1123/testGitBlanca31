@@ -6,8 +6,8 @@ WiFiServer server(80);
 
 //---------------------Credenciales de WiFi-----------------------
 
-const char* ssid     = "motoj6";
-const char* password = "123456789";
+const char* ssid     = "HUB-Visitas";
+const char* password = "VasosLimpios";
 
 //---------------------VARIABLES GLOBALES-------------------------
 int contconexion = 0;

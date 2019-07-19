@@ -28,20 +28,25 @@ html{
     width: 100%;
 }
 .custom-text{
-    margin-top: 140px;
+    /* margin-top: 140px; */
 }
  .custom-heigth{
     /* height: ; */
     width: 200px;
     /* border: 1px solid red; */
 } 
+
+.custom_mCard{
+    height: 400px;
+}
 .custom-imgH{
     height: 100px;
     width: 150px;
 }
 .custom-image{
     transform: rotate(90deg);
-    margin-top: 150px;
+    
+    /* margin-top: 150px; */
     /* margin-right: 0px; */
 }
 .custom-design{
@@ -50,8 +55,13 @@ html{
 }
 .custom-cardT{
     /* width: 200px; */
-    height: 200px;
+    height: 250px;
 
+}
+
+.custom-link-pos{
+    /* border: 1px solid blue; */
+    height: 180px;
 }
 
 .team,footer{
